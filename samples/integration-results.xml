@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2026-11-27T14:05:12" time="0.052" name="AllTests">
+  <testsuite name="EvaluateFlowTest" tests="3" failures="0" disabled="0" errors="0" time="0.01">
+    <testcase name="InitialOutputs" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="EvaluateFlowTest" />
+    <testcase name="StatusResponse" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="EvaluateFlowTest" />
+    <testcase name="EventLog100" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="EvaluateFlowTest" />
+  </testsuite>
+</testsuites>

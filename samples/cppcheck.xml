@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+  <cppcheck version="2.13"/>
+  <errors>
+    <error id="uninitvar" severity="error" msg="Uninitialized variable: result" verbose="Uninitialized variable: result" cwe="457"><location file="src/arbitration.c" line="78" column="12"/></error>
+    <error id="knownConditionTrueFalse" severity="style" msg="Condition 'gear==3' is always false" verbose="Condition 'gear==3' is always false" cwe="570"><location file="src/input_validation.c" line="46" column="14"/></error>
+    <error id="shadowVariable" severity="style" msg="Local variable 'i' shadows outer variable" verbose="Local variable 'i' shadows outer variable" cwe="398"><location file="src/event_log/event_log.c" line="52" column="9"/></error>
+    <error id="constParameterPointer" severity="style" msg="Parameter 'log' can be declared as pointer to const" verbose="Parameter 'log' can be declared as pointer to const" cwe="398"><location file="src/event_log/event_log.c" line="45" column="30"/></error>
+    <error id="unusedStructMember" severity="style" msg="struct member 'door_t::spare' is never used." verbose="struct member 'door_t::spare' is never used." cwe="563"><location file="/work/src/override.c" line="9" column="5"/></error>
+  </errors>
+</results>

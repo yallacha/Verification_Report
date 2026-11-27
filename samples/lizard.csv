@@ -1,0 +1,9 @@
+14,4,84,3,18,"arbitrate_door@20-37@./src/arbitration.c","./src/arbitration.c","arbitrate_door","arbitrate_door( ... )",20,37
+88,14,528,4,96,"select_priority@60-155@./src/arbitration.c","./src/arbitration.c","select_priority","select_priority( ... )",60,155
+22,6,132,2,27,"validate_speed@10-36@./src/input_validation.c","./src/input_validation.c","validate_speed","validate_speed( ... )",10,36
+12,3,72,2,15,"validate_gear@40-54@./src/input_validation.c","./src/input_validation.c","validate_gear","validate_gear( ... )",40,54
+30,11,180,3,34,"check_stale@70-103@./src/input_validation.c","./src/input_validation.c","check_stale","check_stale( ... )",70,103
+40,9,240,3,44,"override_update@15-58@./src/override.c","./src/override.c","override_update","override_update( ... )",15,58
+8,2,48,1,10,"override_clear@50-59@./src/override.c","./src/override.c","override_clear","override_clear( ... )",50,59
+35,7,210,2,41,"event_append@12-52@./src/event_log/event_log.c","./src/event_log/event_log.c","event_append","event_append( ... )",12,52
+60,8,360,3,82,"event_query@56-137@./src/event_log/event_log.c","./src/event_log/event_log.c","event_query","event_query( ... )",56,137

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verification-report"
+version = "0.1.0"
+description = "Google Test, LLVM coverage, CppCheck, Lizard 결과를 HTML 대시보드로 만든다"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+verification-report = "verification_report.cli:main"
+
+[tool.setuptools]
+packages = ["verification_report", "verification_report.parsers"]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="11" failures="1" disabled="0" errors="0" timestamp="2026-11-27T14:05:12" time="0.052" name="AllTests">
+  <testsuite name="ArbitrationTest" tests="4" failures="1" disabled="0" errors="0" time="0.01">
+    <testcase name="CrashConfirmedReleases" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="ArbitrationTest" />
+    <testcase name="ApproachRiskKeepsLock" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="ArbitrationTest" />
+    <testcase name="FireReleasesUnlessRisk" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="ArbitrationTest">
+      <failure message="Expected equality of these values:&#x0A;  lock_left&#x0A;    Which is: 1&#x0A;  RELEASE&#x0A;    Which is: 0" type=""><![CDATA[tests/unit/test_arbitration.cpp:42
+Expected equality of these values:
+  lock_left
+    Which is: 1
+  RELEASE
+    Which is: 0]]></failure>
+    </testcase>
+    <testcase name="IgnitionOffReleases" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="ArbitrationTest" />
+  </testsuite>
+  <testsuite name="InputValidationTest" tests="4" failures="0" disabled="0" errors="0" time="0.01">
+    <testcase name="SpeedRange" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="InputValidationTest" />
+    <testcase name="GearEnum" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="InputValidationTest" />
+    <testcase name="StaleBoundary" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="InputValidationTest" />
+    <testcase name="MissingInput" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="InputValidationTest" />
+  </testsuite>
+  <testsuite name="OverrideTest" tests="3" failures="0" disabled="0" errors="0" time="0.01">
+    <testcase name="WithinTenSeconds" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="OverrideTest" />
+    <testcase name="AfterTenSeconds" file="tests/x.cpp" line="10" status="run" result="completed" time="0.001" classname="OverrideTest" />
+    <testcase name="ClearedOnRiskFalse" status="notrun" result="suppressed" time="0" classname="OverrideTest"><skipped message="DISABLED"/></testcase>
+  </testsuite>
+</testsuites>
